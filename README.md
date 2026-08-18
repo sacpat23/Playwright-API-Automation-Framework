@@ -24,6 +24,36 @@ The Restful Booking API is used as the application under test.
 - Git / GitHub
 - Playwright HTML Reporter
 
+## Prerequisites
+
+Before running the project, please installed the following:
+
+- Node.js (LTS)
+- npm
+- Git
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-github-repository-url>
+cd playwright-api-automation
+
+Install Project Dependencies
+npm install
+
+Install Playwright Browsers
+npx playwright install
+
+The project uses the following major dependencies:
+
+- **@playwright/test** – API and end-to-end test automation
+- **TypeScript** – Type-safe test development
+- **Node.js** – JavaScript runtime
+- **fs** – Reading test data from JSON files
+- **JSON** – External test data and request payloads
+
 ## API Test Coverage
 
 - Create Booking
