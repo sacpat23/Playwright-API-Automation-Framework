@@ -72,7 +72,7 @@ playwright-api-automation/
 └── README.md
 
 
-**## Prerequisites**
+### Prerequisites
 
 Before running the project, please installed following:
 
