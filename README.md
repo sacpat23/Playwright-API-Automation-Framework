@@ -1,18 +1,15 @@
 # Playwright API Automation Framework
 
-## Overview
-
-
 **Playwright | TypeScript | REST API | API Chaining | CRUD | Authentication | Schema Validation | Data-Driven Testing | CI/CD**
 
+## Overview
 
+This project is a REST API automation framework built using Playwright and TypeScript.
 
+The framework demonstrates API testing concepts including CRUD operations, authentication,
+API chaining, dynamic test data, request/response validation, and schema validation.
 
-The framework demonstrates API testing concepts including CRUD operations,
-authentication, API chaining, dynamic test data, request/response validation,
-and schema validation.
-
-The Restful Booking API is used as the application under test.
+The Restful Booker API is used as the application under test.
 
 ## Tech Stack
 
@@ -23,36 +20,6 @@ The Restful Booking API is used as the application under test.
 - JSON
 - Git / GitHub
 - Playwright HTML Reporter
-
-## Prerequisites
-
-Before running the project, please installed the following:
-
-- Node.js (LTS)
-- npm
-- Git
-
-## Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-github-repository-url>
-cd playwright-api-automation
-
-Install Project Dependencies
-npm install
-
-Install Playwright Browsers
-npx playwright install
-
-The project uses the following major dependencies:
-
-- **@playwright/test** – API and end-to-end test automation
-- **TypeScript** – Type-safe test development
-- **Node.js** – JavaScript runtime
-- **fs** – Reading test data from JSON files
-- **JSON** – External test data and request payloads
 
 ## API Test Coverage
 
@@ -70,9 +37,13 @@ The project uses the following major dependencies:
 
 ## API Chaining
 
-The framework demonstrates an end-to-end API chaining workflow:
+The framework demonstrates an end-to-end API chaining workflow where the
+response from one API is used as input for the next API.
+
+### Booking Update Flow
 
 POST /booking -> Extract Booking ID -> POST /auth -> Extract Authentication Token -> PUT /booking/{bookingId} -> Validate Updated Booking
+
 
 ## Project Structure
 
@@ -99,3 +70,29 @@ playwright-api-automation/
 ├── package.json
 ├── package-lock.json
 └── README.md
+
+
+Prerequisites
+
+Before running the project, please installed following:
+
+Node.js (LTS)
+npm
+Git
+Installation
+
+1. Clone the Repository
+git clone <your-github-repository-url>
+cd playwright-api-automation
+
+2. Install Project Dependencies
+
+Install all dependencies defined in package.json:
+
+npm install
+
+3. Install Playwright Browsers
+npx playwright install
+Running Tests
+Run All Tests
+npx playwright test
