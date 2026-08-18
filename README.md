@@ -12,7 +12,7 @@ The framework demonstrates API testing concepts including CRUD operations,
 authentication, API chaining, dynamic test data, request/response validation,
 and schema validation.
 
-The Restful Booker API is used as the application under test.
+The Restful Booking API is used as the application under test.
 
 ## Tech Stack
 
