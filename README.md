@@ -41,17 +41,7 @@ The Restful Booker API is used as the application under test.
 
 The framework demonstrates an end-to-end API chaining workflow:
 
-POST /booking
-       ↓
-Extract Booking ID
-       ↓
-POST /auth
-       ↓
-Extract Authentication Token
-       ↓
-PUT /booking/{bookingId}
-       ↓
-Validate Updated Booking
+POST /booking -> Extract Booking ID -> POST /auth -> Extract Authentication Token -> PUT /booking/{bookingId} -> Validate Updated Booking
 
 ## Project Structure
 
