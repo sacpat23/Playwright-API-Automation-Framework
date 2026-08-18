@@ -3,7 +3,7 @@
 ## Overview
 
 
-Playwright | TypeScript | REST API | API Chaining | CRUD | Authentication | Schema Validation | Data-Driven Testing | CI/CD
+**Playwright | TypeScript | REST API | API Chaining | CRUD | Authentication | Schema Validation | Data-Driven Testing | CI/CD**
 
 
 
