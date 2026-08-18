@@ -2,9 +2,10 @@
 
 ## Overview
 
-This project is a REST API automation framework built using Playwright and TypeScript.
 
-**Playwright + TypeScript + API Chaining + CRUD + Authentication + Schema Validation + Data-Driven Testing + CI/CD**
+Playwright | TypeScript | REST API | API Chaining | CRUD | Authentication | Schema Validation | Data-Driven Testing | CI/CD
+
+
 
 
 The framework demonstrates API testing concepts including CRUD operations,
